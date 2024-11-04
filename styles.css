@@ -56,10 +56,19 @@
 .main {
     padding: 5px;
     margin: 10px;
-    width: 70%;
+    width: 75%;
     float: right;
     height: 600px;
-    margin-right: 0px;
+    margin-right: 3px;
+}
+.main p {
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 400px;
+    background-color: #f4f4f4; 
+    line-height: 25px;
 }
 .footer {
     color:white;

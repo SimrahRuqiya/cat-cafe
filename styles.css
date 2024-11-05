@@ -35,6 +35,9 @@
     border-radius: 3px;
     padding: 6px;
 }
+.nav-link:hover{
+    background-color: #e790b5;
+}
 .aside {
     background-color:#f4f4f4;
     padding: 10px;

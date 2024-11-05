@@ -26,12 +26,20 @@
                 font-size: larger;
                 text-align: center;
             }
+            .container {
+                display: flex;
+            }
             .navigation {
+                display: flex;
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 text-align:center;
                 padding: 10px;
                 background-color: #e9b0c9;
                 text-decoration: none;
+                flex-direction: column;
+            }
+            .navigation::after {
+                clear:both;
             }
             .nav-link {
                 font-weight: 700;
@@ -45,21 +53,12 @@
             .nav-link:hover{
                 background-color: #e790b5;
             }
-            .aside {
-                background-color:#f4f4f4;
-                padding: 10px;
-                margin: 10px;
-                float: left;
-                width: 20%;
-                height: auto;
-                color:dimgray
-            }
             .main {
                 display: flex;
-                justify-content: center;
                 max-width: 60%;
                 margin: 0 auto;
                 padding: 20px;
+                flex-wrap: wrap;
             }
             .box {
                 padding: 20px;
@@ -84,8 +83,8 @@
             <h1>Simrah's Cat Cafe</h1>
             <p>Come play with our furry friends!</p>
         </div>
-        <div class="all">
-            <div class="aside">
+        <div class="container">
+            <div class="navigation">
                 <a class="nav-link" href="index_A2.html">Home</a>
                 <a class="nav-link" href="page2_A2.html">Our Cats</a>
                 <a class="nav-link" href="page3_A2.html">Adopt</a>
@@ -95,22 +94,22 @@
                 <img src="images/page2_1.jpeg" height="250px">
                 <p>Meet Coco! The friendliest face of our establishment. He loves talking to everyone and gets a little moody when not fed.</p>
             </div>
-        <div class="box">
-            <img src="images/page2_2.jpeg" height="250px">
-            <p>Meet our love birds, Hello Kitty and Dear Daniel! They love being next to each other and hates when someone pets the other one.</p>
-        </div>
-        <div class="box">
-            <img src="images/page2_3.jpeg" height="250px">
-            <p>Meet Ruby! The queen of our place. She loves to boss around other cats and meows when not loved.</p>
-        </div>
-        <div class="box">
-            <img src="images/page2_4.jpg" height="250px">
-            <p>Meet Princess! The biggest sleepy head. She loves to sleep and sleep and sleep. Her favorite activities are sleeping.</p>
-        </div>
-        <div class="box">
-            <img src="images/page2_5.jpg" height="250px">
-            <p>Meet Yoshi! He's a fatty and loves to eat all day long. He gives the best cuddles though. We kinda hate him.</p>
-        </div>
+            <div class="box">
+                <img src="images/page2_2.jpeg" height="250px">
+                <p>Meet our love birds, Hello Kitty and Dear Daniel! They love being next to each other and hates when someone pets the other one.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_3.jpeg" height="250px">
+                <p>Meet Ruby! The queen of our place. She loves to boss around other cats and meows when not loved.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_4.jpg" height="250px">
+                <p>Meet Princess! The biggest sleepy head. She loves to sleep and sleep and sleep. Her favorite activities are sleeping.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_5.jpg" height="250px">
+                <p>Meet Yoshi! He's a fatty and loves to eat all day long. He gives the best cuddles though. We kinda hate him.</p>
+            </div>
         </div>
         </div>
         <div class="footer">

@@ -28,6 +28,8 @@
             }
             .container {
                 display: flex;
+                justify-content: space-around;
+                height: fit-content;
             }
             .navigation {
                 display: flex;
@@ -36,11 +38,9 @@
                 background-color: #e9b0c9;
                 text-decoration: none;
                 flex-direction: column;
-                gap:50px;
                 padding: 10px;
                 margin: 0px;
-                width:fit-content;
-                height: auto;
+                width: 10%;
             }
             .navigation::after {
                 clear:both;
@@ -53,16 +53,26 @@
                 border: white 1px solid;
                 border-radius: 3px;
                 padding: 6px;
+                margin: 5px;
             }
             .nav-link:hover{
                 background-color: #e790b5;
             }
             .main {
                 display: flex;
-                max-width: 60%;
+                width: 65%;
                 margin: 0 auto;
                 padding: 20px;
                 flex-wrap: wrap;
+            }
+            .aside {
+                margin: 20px;
+                width: 25%;
+                background-color:#f4f4f4;
+                padding: 5px;
+                line-height: 40px;
+                height: max-content;
+                border-radius: 10px;
             }
             .box {
                 padding: 20px;
@@ -93,7 +103,7 @@
                 <a class="nav-link" href="page2_A2.html">Our Cats</a>
                 <a class="nav-link" href="page3_A2.html">Adopt</a>
             </div>
-        <!--<div class="main">
+            <div class="main">
             <div class="box">
                 <img src="images/page2_1.jpeg" height="250px">
                 <p>Meet Coco! The friendliest face of our establishment. He loves talking to everyone and gets a little moody when not fed.</p>
@@ -114,12 +124,25 @@
                 <img src="images/page2_5.jpg" height="250px">
                 <p>Meet Boba! He's a fatty and loves to eat all day long. He gives the best cuddles though. We kinda hate him.</p>
             </div>
-        </div>
-        </div> -->
+            <div class="box">
+                <img src="images/page2_6.jpg" height="250px">
+                <p>Meet Felix! Be careful of your drinks and snacks because he might run and eat it all. He's the youngest.</p>
+            </div>
+        </div> 
         <div class="aside">
-            <h3 style="text-align: center;">Rules</h3>
-            <li>Please me mindful of your actions and don't scare out cats</li>
-            <li></li>
+            <section class="news">
+                <h3 style="text-align: center;">Rules for cats</h3>
+                <li>Respect the personal space of the cats</li>
+                <li>Be gentle and pet our cats softly</li>
+                <li>Don't feed the cats.</li>
+            </section>
+            <section class="news">
+                <h3 style="text-align: center;">Rules for you</h3>
+                <li>Our food includes allergens:- Nuts, Dairy and Eggs</li>
+                <li>Keep yourself clean and sanitize your hands</li>
+                <li>Be careful of your belongings</li>
+            </section>
+        </div>
         </div>
         <div class="footer">
             <footer>Copyright &copy; Simrah Shabandri</footer>

@@ -1,6 +1,7 @@
 * {
     margin: auto;
     margin-bottom: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header {
     background-color: #e9b0c9;
@@ -15,7 +16,7 @@
     text-align: center;
 }
 .navigation {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
     padding: 10px;
     background-color: #e9b0c9;
@@ -24,7 +25,7 @@
 .nav-link {
     font-weight: 600;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     border: white 1px solid;
     border-radius: 3px;
@@ -83,6 +84,7 @@
     font-size: 18px;
     line-height: 30px;
     background-color:#e9b0c9;
+    border-radius: 300px;
 }
 .footer {
     color:white;

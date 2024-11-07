@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Events</title>
         <style>
             * {
                 margin: auto;
@@ -12,26 +12,26 @@
             .header {
                 background-color: #e9b0c9;
                 border: dotted 5px whitesmoke;
-                color:white; 
-                /*background-image:url("images");*/
-                font-family:'Times New Roman', Times, serif;
                 margin-top: 0px;
-                padding: 20px;
             }
-            .header h1 {
-                text-align: center;
-            }
-            .header p {
-                font-style: italic;
-                font-size: larger;
-                text-align: center;
+            .container {
+                display: flex;
+                justify-content: space-around;
+                height: fit-content;
             }
             .navigation {
+                display: flex;
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 text-align:center;
-                padding: 10px;
                 background-color: #e9b0c9;
                 text-decoration: none;
+                flex-direction: column;
+                padding: 10px;
+                margin: 0px;
+                width: 10%;
+            }
+            .navigation::after {
+                clear:both;
             }
             .nav-link {
                 font-weight: 700;
@@ -41,9 +41,32 @@
                 border: white 1px solid;
                 border-radius: 3px;
                 padding: 6px;
+                margin: 5px;
             }
             .nav-link:hover{
                 background-color: #e790b5;
+            }
+            .main {
+                display: flex;
+                width: 65%;
+                margin: 0 auto;
+                padding: 20px;
+                flex-wrap: wrap;
+            }
+            .aside {
+                margin: 20px;
+                width: 25%;
+                background-color:#f4f4f4;
+                padding: 5px;
+                line-height: 40px;
+                height: max-content;
+                border-radius: 10px;
+            }
+            .box {
+                padding: 20px;
+                margin: 10px;
+                flex: 1;
+                border: 1px solid burlywood;
             }
             .footer {
                 color:white;
@@ -59,13 +82,41 @@
     </head>
     <body>
         <div class="header">
-            <h1>Simrah's Cat Cafe</h1>
-            <p>Come play with our furry friends!</p>
+            <center><img src="images/heading.jpeg" style="width: 700px; margin-top: 0px;"></center>
         </div>
-        <div class="navigation">
-            <a class="nav-link" href="index_A2.html">Home</a>
-            <a class="nav-link" href="page2_A2.html">Our Cats</a>
-            <a class="nav-link" href="page3_A2.html">Adopt</a>
+        <div class="container">
+            <div class="navigation">
+                <a class="nav-link" href="index_A2.html">Home</a>
+                <a class="nav-link" href="page2_A2.html">Our Cats</a>
+                <a class="nav-link" href="page3_A2.html">Events</a>
+            </div>
+            <div class="main">
+            <div class="box">
+                <img src="images/page2_1.jpeg" height="250px">
+                <p>Meet Coco! The friendliest face of our establishment. He loves talking to everyone and gets a little moody when not fed.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_2.jpeg" height="250px">
+                <p>Meet our love birds, Hello Kitty and Dear Daniel! They love being next to each other and hates when someone pets the other one.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_3.jpeg" height="250px">
+                <p>Meet Ruby! The queen of our place. She loves to boss around other cats and meows when not loved.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_4.jpg" height="250px">
+                <p>Meet Princess! The biggest sleepy head. She loves to sleep and sleep and sleep. Her favorite activities are sleeping.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_5.jpg" height="250px">
+                <p>Meet Boba! He's a fatty and loves to eat all day long. He gives the best cuddles though. We kinda hate him.</p>
+            </div>
+            <div class="box">
+                <img src="images/page2_6.jpg" height="250px">
+                <p>Meet Felix! Be careful of your drinks and snacks because he might run and eat it all. He's the youngest.</p>
+            </div>
+        </div> 
+        
         </div>
         <div class="footer">
             <footer>Copyright &copy; Simrah Shabandri</footer>

@@ -5,14 +5,9 @@
 .header {
     background-color: #e9b0c9;
     border: dotted 5px whitesmoke;
-    color:white; 
-    /*background-image:url("images");*/
-    font-family:'Times New Roman', Times, serif;
+    color:white;
     margin-top: 0px;
-    padding: 20px;
-}
-.header h1 {
-    text-align: center;
+    
 }
 .header p {
     font-style: italic;

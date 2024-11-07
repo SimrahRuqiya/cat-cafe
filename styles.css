@@ -50,7 +50,7 @@
     width: 75%;
     margin-left: 4px;
     float: right;
-    height: 400px;
+    height: 350px;
 }
 .box {
     float: left;
@@ -59,7 +59,6 @@
     box-sizing: border-box;
 }
 .main img {
-    float: left;
     padding-right: 10px;
 }
 .main p {
@@ -87,5 +86,5 @@
     width: auto;
     background-color: #C6AFB1;
     bottom: 0;
-    position:static;
+    position:sticky;
 }

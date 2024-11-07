@@ -39,12 +39,11 @@
     margin: 10px;
     float: left;
     width: 20%;
-    height: auto;
     color:dimgray;
 }
 
 .aside li {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 40px;
 }
 
@@ -56,17 +55,34 @@
     margin: 10px;
     width: 75%;
     float: right;
-    height: 600px;
+    height: auto;
     margin-right: 3px;
 }
+.box {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main img {
+    float: left;
+    padding-right: 10px;
+}
 .main p {
+    width:750px;
+    margin-left: 15px;
     padding: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
     font-size: 18px;
-    width: 400px;
-    background-color: #f4f4f4; 
-    line-height: 25px;
+    line-height: 30px;
+}
+.sub-main {
+    clear: both;
+}
+.box {
+    font-size: 18px;
+    line-height: 30px;
+    background-color:#e9b0c9;
 }
 .footer {
     color:white;
